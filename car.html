@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/car.css" />
+		
+		<script type="text/javascript" src="js/rem.js" ></script>
+		<script type="text/javascript" src="js/jquery-2.2.2.js" ></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js" ></script>
+		<script type="text/javascript" src="js/a.js" ></script>
+		<title>GO Car</title>
+	</head>
+	<body>
+		<div data-role="page">
+			<!--头部-->
+			<div data-role="header" id="header">
+				<p id="back"><</p>
+				<h1>购物车</h1>
+			</div>
+			<!--中间部分-->
+			<div id="content"></div>
+			<!--结算一栏-->
+			<div class="calc">
+				<img src="icon/unchecked.png" style="float: left;height: 0.3rem;padding: 0.2rem;" id="check_all"/>
+				<p id="add-all" style="float: left;">全选</p>
+				<p id="calc">结算</p>
+				<p id="pri-all">合计：<span>￥ </span><span id="pri-all-price">0</span></p>
+			</div>
+			<!--尾部-->
+			<div class="footer">
+				<div class="item" id="index">
+					<div class="item_pic"><img src="icon/home_gray.png"/></div>
+					<div class="item_p">首页</div>
+				</div>
+				<div class="item" id="mall">
+					<div class="item_pic"><img src="icon/mall_g.png"/></div>
+					<div class="item_p">商城</div>
+				</div>
+				<div class="item" id="open-add">
+					<div class="item_pic_add"><img src="img/foo_pic_add.png"/></div>
+					
+				</div>
+				<div class="item" id="inspiration">
+					<div class="item_pic"><img src="icon/car_yellow.png"/></div>
+					<div class="item_p"  style="color: #ffdb2c;">购物车</div>
+				</div>
+				<div class="item" id="mine">
+					<div class="item_pic"><img src="icon/me_gray.png"/></div>
+					<div class="item_p">我的</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/car.js"></script>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    
+    <link rel="stylesheet" type="text/css" href="css/index_content.css" />
+    <link rel="stylesheet" type="text/css" href="css/index_header.css" />
+    <link rel="stylesheet" type="text/css" href="css/index_bottom.css" />
+    <link rel="stylesheet" type="text/css" href="css/recommendation.css" />
+    
+    <script type="text/javascript" src="js/jquery.js" ></script>
+	<link rel="stylesheet" href="css/swiper.min.css" >
+	<script src="js/jquery-2.2.2.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/a.js"></script>
+	<script>
+	window.onload=function(){
+		
+		$(document).on('swipeleft',function(){
+			location.href='mall.html';
+		});
+	}
+	</script>
+</head>
+
+<body>
+	<!--页面顶部-->
+	<div class="header">
+		<div class="title">
+			<div class="jujia">GO</div>
+			
+		</div>
+		<div class="search"><img src="img/search.png"/></div>
+	</div>
+	<!--导航部分-->
+	<div class="nav">
+		<ul>
+			<li class="first_li" id="tuijian"><a href="#" >推荐</a></li>
+			<li><a href="#">衬衫</a></li>
+			<li><a href="#">礼服</a></li>
+			<li><a href="#">棉服</a></li>
+		</ul>
+	</div>
+	<!--背景轮播图-->
+	<div class="banner" style="overflow: hidden;">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		    	
+		        <div class="swiper-slide" name="swiper0"></div>
+		        <div class="swiper-slide" name="swiper1"></div>
+		        <div class="swiper-slide" name="swiper2"></div>
+			    <div class="swiper-slide" name="swiper3"></div>
+		    </div>
+		    <!-- 分页器 -->
+		    <div class="swiper-pagination"></div>	    
+		</div>
+		
+		</script>
+	</div>
+	<!--推荐-->
+	<div class="hot">
+		<img src="img/bg_hot_02.png" />
+		<div class="hot_ch">热门推荐</div>
+		<div class="hot_en">RECOMMENDATION</div>
+	</div>
+	<!--主体部分-->
+	<div class="content">
+		
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="item" id="index">
+			<div class="item_pic"><img src="icon/home_yellow.png"/></div>
+			<div class="item_p" style="color: #ffdb2c;">首页</div>
+		</div>
+		<div class="item" id="mall">
+			<div class="item_pic"><img src="icon/mall_g.png"/></div>
+			<div class="item_p">商城</div>
+		</div>
+		<div class="item" id="open-add">
+			<div class="item_pic_add"><img src="img/foo_pic_add.png"/></div>
+			
+		</div>
+		<div class="item" id="car">
+			<div class="item_pic"><img src="icon/car_gray.png"/></div>
+			<div class="item_p">购物车</div>
+		</div>
+		<div class="item" id="mine">
+			<div class="item_pic"><img src="icon/me_gray.png"/></div>
+			<div class="item_p">我的</div>
+		</div>
+	</div>
+</body>
+<script src="js/swiper.min.js"></script>
+<script src="js/recommendation.js"></script>
+</html>

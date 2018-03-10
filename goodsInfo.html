@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Go GoodsInfo</title>
+		
+		<link rel="stylesheet" href="css/swiper.min.css" >
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/goodsInfo.css" >
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/rem.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				var registered=localStorage.getItem('registered');
+				var userName=localStorage.getItem('userName','guolibin6');
+				if(registered=='registered')
+				{
+					if(userName){
+						location.href='recommendation.html';
+					}
+				}
+			});	
+		</script>
+
+	</head>
+	<body>
+		<!--轮播图-->
+		<div class="swiper-container">
+			<!--轮播主体-->
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" id="slide0"></div>
+		        <div class="swiper-slide" id="slide1"></div>
+		        <div class="swiper-slide" id="slide2"></div>
+		        <div class="swiper-slide" id="slide3"></div>
+		    </div>
+		    <!-- 轮播分页器 -->
+		    <div class="swiper-pagination"></div>	 
+		</div>
+		<!--页面主体内容-->
+		<div class="container">
+			
+			<div class="row" style="height: 0.8rem;">
+				<div class="col-md-10" id="goodsName" style="font-size: 0.28rem;"></div>
+				<div class="col-md-2"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3" id="price" style="font-size: 0.3rem;"></div>
+				<div class="col-md-12" id="higth-price" style="font-size: 0.22rem;text-decoration: line-through;"></div>
+			</div>
+			
+			<div class="row" style="font-size: 0.22rem;padding: 5px 0;">
+				<div class="col-md-4">快递&nbsp;0.00</div>
+				<div class="col-md-5" id="buyNumber">月销：</div>
+				<div class="col-md-3">江苏苏州</div>
+			</div>
+			
+			<div class="row" style="padding: 10px 0; border-top: solid 1.7px ghostwhite;">
+				<div class="col-md-4">正品保证</div>
+				<div class="col-md-3">极速退款</div>
+				<div class="col-md-3">赠运费险</div>
+				<div style="padding-left: 40px;">></div>
+			</div>
+			
+			<div class="row" style="padding: 15px 0; border-top: solid 1.7px ghostwhite;">
+				<div class="col-md-10">购买可得积分</div>
+				<div style="padding-left: 40px;" >></div>
+			</div>
+			<div class="row" style="background-color: beige;height: 5px;">
+				
+			</div>
+			<div class="row" style="font-size: 0.5rem;padding: 10px 0;" id="extent">
+				<div class="col-md-10" style="font-size: 0.24rem;">
+					选择颜色，尺码,数量
+				</div>
+				
+				<div style="padding-left: 40px;" id="jiantou">
+					>
+				</div>
+			</div>
+			<div class="row" style="background-color: beige;display: none;" id="ext">
+				<div class="col-md-10" style="padding-top: 0.3rem;">颜色：默认</div>
+				<div class="col-md-10" style="padding-top: 0.3rem;">尺码：默认</div>
+				<div class="col-md-10" style="padding: 0.3rem;">
+					数量：<input type="number" value="0" min="0" max="50" id="get_num"/>
+				</div>
+			</div>
+			<div class="row" style="font-size: 0.5rem;padding: 10px 0; border-top: 1.7px solid ghostwhite;">
+				<div class="col-md-10" style="font-size: 0.24rem;">
+					产品参数
+				</div>
+				<div style="padding-left: 40px;">
+					>
+				</div>
+			</div>
+			<div class="row" style="background-color: beige; text-align: center;padding: 10px 0;font-size: 0.24rem;">
+				<div class="col-md-12" >
+					---评价---
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer" style="background-color: white;">
+				<div class="row">
+					<div class="col-md-2" style="margin-right: -15px;">
+						<div id="icon" style="padding: 5px 15px;"><img src="icon/store_red.png"/></div>
+						
+						<p style="font-size: 0.2rem;text-align: center;">店铺</p>
+					</div>
+					<div class="col-md-2" style="margin-right: -15px;">
+						<div id="icon1" style="padding: 5px 15px;"><img src="icon/kefu_gray.png"/></div>
+						
+						<p style="font-size: 0.2rem;text-align: center;">客服</p>
+					</div>
+					<div class="col-md-2" style="margin-right: -15px;" id="icon2">
+						<div id="icon" style="padding: 5px 10px;"><img src="icon/car_gray.png" style="width: 16px;height: 16px;"/></div>
+						
+						<p style="font-size: 0.2rem;text-align: center;">购物车</p>
+					</div>
+					<div id="addgo" style="background-color: darkorange;padding: 0 0.6rem; font-size: 0.24rem;height: 1rem;line-height: 1rem;">
+						加入购物车
+					</div>
+					<div id="a" style="background-color: orangered;padding: 0 0.5rem; font-size: 0.24rem;height: 1rem;line-height: 1rem;">
+						马上购买
+					</div>
+				</div>
+			</div>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/goodsInfo.js"></script>	
+	</body>
+	
+</html>

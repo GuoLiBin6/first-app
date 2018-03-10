@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Go Index</title>
+		
+		<link rel="stylesheet" href="css/swiper.min.css" >		
+   		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+   		<link rel="stylesheet" href="css/index.css" >
+   		
+   		
+   		<script type="text/javascript" src="js/jquery.js" ></script>
+   		<script src="js/jquery-2.2.2.js"></script>
+   		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js" ></script>
+		<script>
+		$(document).on('pagebeforecreate',function(){
+			var logined=localStorage.getItem('logined');
+			var userID=localStorage.getItem('userID');
+			
+			if(logined=='logined')
+			{
+				if(userID){
+					location.href='recommendation.html';
+				}else{
+					location.href='login.html';
+				}
+			}
+		});	
+		</script>
+		
+	</head>
+	<body>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" id="slide1">
+		        	<p class="p1">超火爆</p>
+		        	<p class="p2">购物之选</p>
+		        	<p class="p3">尽在GO</p>
+		        	<img src="img/clo.png" class="clo"/>
+		        	<img src="img/clos.png" class="clos"/>
+		        	<img src="img/closd.png" class="closd"/>
+		        </div>
+		        <div class="swiper-slide" id="slide2">
+		        	<p class="p1">超放心购物之选</p>	        	
+		        	<p class="p2">尽在GO</p>
+		        	<img src="img/clo.png" class="clo"/>
+		        	<img src="img/clos.png" class="clos"/>
+		        	<img src="img/closd.png" class="closd"/>
+		        	<div id='btn' class="btn btn-success">
+		        		马上体验
+		        	</div>
+		        </div>
+		        
+		    </div>
+		    <!-- 分页器 -->
+		    <div class="swiper-pagination"></div>	    
+		</div>
+	
+	</body>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>	
+</html>
