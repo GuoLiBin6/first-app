@@ -1,0 +1,83 @@
+
+.content1 img{
+	width: 2rem;
+	height: 2rem;
+}
+.content1 .con_pic1{
+	margin-left: 0.2rem;
+}
+.content2 img{
+	width: 100%;
+}
+.content2{
+	position: relative;
+}
+.content2 p{
+	height: 0.33rem;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*contet3*/
+.item1{
+	float: left;
+	margin-left: 0.16rem;
+	margin-top: 0.3rem;
+	width: 3.26rem;
+	height: 2.64rem;
+	position: relative;
+}
+.item1 img{
+	width: 3.26rem;
+	height: 2.64rem;
+}
+.bg_gray{
+	width: 100%;
+	height: 0.6rem;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 2.06rem;
+}
+.line_left img{
+	height: 0.01rem;
+	width: 0.1rem;
+	position: absolute;
+	top: 2.35rem;
+	left: 0.18rem;
+}
+.line_right img{
+	height: 0.01rem;
+	width: 0.1rem;
+	position: absolute;
+	top: 2.35rem;
+	left: 1.92rem;
+}
+.item1 .p{
+	font-size: 0.22rem;
+	position: absolute;
+	top: 2.24rem;
+	left: 0.32rem;
+	color: #fff;
+}
+.item1 .star_red img{
+	width: 0.53rem;
+	height: 0.53rem;
+	position: absolute;
+	top: 1.62rem;
+	right: 0.08rem;
+	
+}
+.rmb{
+	height: 0.22rem;
+	color: red;
+	font-size: 0.22rem;
+	position: absolute;
+	top: 2.24rem;
+	left: 2.2rem;
+}
+.rmb span{
+	margin-right: 0.05rem;
+	color:#fff;
+}

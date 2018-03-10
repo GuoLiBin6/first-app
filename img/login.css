@@ -1,0 +1,72 @@
+
+#content{
+	height: 100%;
+	min-height: 600px;
+}
+.fname,.password{
+	/*text-align: center;*/
+	font-size: 0.27rem;
+	height: 0.5rem;
+	min-height: 0.5rem;
+	max-width: 3rem;
+	width: 3.5rem!important;
+}
+form{
+	position: relative;
+}
+.ui-input-text{
+	margin: 0.2rem 0!important;
+	
+	width: 3.5rem;
+}
+.ui-input-btn{
+	margin: 0.1rem 0!important;
+}
+.ui-input-btn-input{
+	font-size: 5rem;
+}
+/*form{
+	margin-left: -0.5rem;
+}*/
+#content img{
+	width: 3rem;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+.zhuce {
+	font-size: 0.27rem;
+	color: #0088BB;
+	height: 0.27rem;
+	line-height: 0.27rem;
+	text-decoration: none;
+	position:absolute ;
+	top: 0.16rem;
+	right: 0.3rem;
+}
+.wangji {
+	font-size: 0.27rem;
+	color: #0088BB;
+	height: 0.27rem;
+	line-height: 0.27rem;
+	text-decoration: none;
+	position:absolute ;
+	top: 1rem;
+	right: 0.3rem;
+}
+form #submit{
+	position: absolute;
+	left: 2rem;
+	bottom: 0;
+}
+form #submit2{
+	position: absolute;
+	left: 2rem;
+	bottom: 0;
+}
+.ui-btn{
+	position: absolute;
+	/*left: 2rem;*/
+	width: 4.4rem;
+	top: 1.7rem;
+	padding: 0.18rem 0.15rem;
+}

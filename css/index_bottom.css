@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+/*底部*/
+.footer{
+	height: 0.98rem;
+	width: 100%;
+	border-top: 1px gray solid;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.item{
+	height: 0.98rem;
+	width: 20%;
+	float: left;
+	
+}
+.item .item_pic{
+	width: 20%;
+	text-align: center;
+}
+.item_pic_add{
+	width: 20%;
+}
+.item_pic_add img{
+	width: 0.84rem;
+	position: absolute;
+	top: 0.1rem;
+	padding-left: 0.35rem;
+}
+.item .item_pic img{
+	width: 0.45rem;
+	position: absolute;
+	top: 0.1rem;
+	padding-left: 0.3rem;
+}
+.footer .item .item_p{
+	font-size: 0.22rem;
+	position: absolute;
+	width: 20%;
+	top:0.6rem;
+	text-align: center;
+}

@@ -1,0 +1,36 @@
+.content_item{
+	position: relative;
+	height: 200px;
+	width: 42%;
+	/*border: solid gray 1px;*/
+	overflow: hidden;
+	float: left;
+	margin: 2% 0;
+	margin-left: 5%;
+}
+.content_item img{
+	height: 110%;
+}
+.item_gray{
+	height: 58px;
+	width: 100%;
+	position: absolute;
+	background-color:  rgba(0,0,0,0.3);
+	bottom: 0;
+	left: 0;
+}
+.content_item p{
+	width: 100%;
+	color: yellow;
+	position: absolute;
+	font-size: 15px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	height: 58px;
+	line-height: 58px;
+}
+.swiper-container{
+	width: 100%;
+	height: 3.22rem;
+}

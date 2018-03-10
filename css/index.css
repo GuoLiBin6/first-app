@@ -1,0 +1,104 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				/*background-color: #a2652a;*/
+				background-color:#ffdb2c;
+				}
+			
+			.swiper-slide{
+				height: 650px;
+				position: relative;
+			}
+			#slide1 p{
+				
+				font-size: 15px;
+				font-family: 幼圆;
+				margin: 0 50px 50px 0;
+			}
+			#slide1 .p1{
+				position: absolute;
+				top: 370px;
+				left: 10%;
+			}
+			#slide1 .p2{
+				position: absolute;
+				top: 420px;
+				left: 25%;
+			}
+			#slide1 .p3{
+				position: absolute;
+				top: 470px;
+				left: 15%;
+			}
+			#slide2 .p1{
+				position: absolute;
+				top: 70px;
+				left: 130px;
+			}
+			#slide2 .p2{
+				position: absolute;
+				top: 120px;
+				left: 150px;
+			}
+			
+			#slide1 .clo{
+				height: 200px;
+				position: absolute;
+				top: 100px;
+				left: 5%;
+				width: 150px;
+				border-radius: 25% 25% 0 25%;
+				
+			}
+			#slide1 .clos{
+				height: 200px;
+				
+				width: 150px;
+				border-radius: 0 25% 25% 25%;
+				position: absolute;
+				top: 330px;
+				right: 5%;
+			}
+			#slide1 .closd{
+				height: 200px;
+				position: absolute;
+				top: 100px;
+				right: 5%;
+				width: 150px;
+				border-radius: 25% 25% 25% 0;
+				
+			}
+			#slide2 .clo{
+				height: 150px;
+				width: 100px;
+				position: absolute;
+				top: 150px ;
+				left: 50px;
+				border-radius: 5px;
+				transform: rotate(-30deg);
+			}
+			#slide2 .clos{
+				height: 150px;
+				width: 100px;
+				position: absolute;
+				top: 150px ;
+				right: 50px;
+				border-radius: 5px;
+				transform: rotate(30deg);
+			}
+			#slide2 .closd{
+				height: 180px;
+				
+				position: absolute;
+				top: 300px ;
+				left: 130px;
+				border-radius: 5px;
+				
+			}
+			#btn{
+				position: absolute;
+				bottom: 50px;
+				left: 40%;
+			}

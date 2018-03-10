@@ -1,0 +1,48 @@
+/*总体样式*/
+*{
+	margin: 0;
+	padding: 0;
+	color: #717171;
+}
+a{
+	text-decoration: none;
+}
+
+
+.hot{
+	height: 1.1rem;
+	width: 100%;
+	background-image:url(../img/bg_hot_02.png) ;
+	position: relative;
+	margin-bottom: 0.26rem;
+}
+.hot img{
+	height: 1.1rem;
+	width: 100%;
+	padding-top: 5px;
+}
+.hot_ch{
+	font-size: 0.36rem;
+	position: absolute;
+	left: 2.96rem;
+	top: 0.3rem;	
+}
+.hot_en{
+	font-size: 0.3rem;
+	color: #000;
+	font-weight:100;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 2.09rem;
+	top: 0.81rem;
+}
+
+/*.bg_gray{
+	position: absolute;
+	top: 1.62rem;
+	width: 100%;
+	height: 0.6rem;
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+

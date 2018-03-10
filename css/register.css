@@ -1,0 +1,13 @@
+body{
+   	background-image: url(../img/0-banner.png);
+}
+.container{
+   	margin-top: 2rem;
+   	width: 5rem;
+}
+.item p{
+   	height: 20px;
+   	line-height: 20px;
+   	text-align: right;
+   	color: #FF0000; 
+}

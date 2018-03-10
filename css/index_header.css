@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #717171;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 0.95rem;
+	background-color: #ffdb2c;
+}
+.title{
+	height: 0.95rem;
+	width: 0.68rem;
+	margin-left: 3.42rem;
+	float: left;
+}
+.jujia{
+	color: #000;
+	padding-top: 0.25rem;
+	float: left;
+	font-size: 0.4rem;
+}
+.img img{
+	padding-top: 3px;
+	width: 0.68rem;
+	float: left;
+}
+.search{
+	float: right;
+	height: 0.95rem;
+	width: 0.8rem;
+	text-align: center;
+	
+}
+.search img{
+	width: 0.45rem;
+	padding-bottom: 0.3rem;
+}
+
+
+/*导航*/
+.nav{
+	height: 0.9rem;
+	width: 100%;
+}
+.nav ul li{
+	float: left;
+	font-size: 0.3rem;
+	list-style: none;
+	line-height: 0.84rem;
+	width: 25%;
+	text-align: center;
+}
+.first_li{
+	border-bottom: 0.08rem #ffdb2c solid;
+}
+
+/*背景轮播图*/
+.banner{
+	width: 100%;
+	height: 3.22rem;
+}
+.banner img{
+	width: 100%;
+}
+
+

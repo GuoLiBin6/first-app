@@ -1,0 +1,46 @@
+body{
+	background-color: #eeeeee;
+	font-size: 0.3rem;
+}
+#header{
+	background-color: #ffdb2c;
+}
+a{
+	text-decoration: none;
+}
+#header a{
+	color: #000;
+	font-size: 0.36rem;
+	margin-top: 0.05rem;
+}
+li{
+	list-style: none;
+}
+.ui-content{
+	padding: 0;
+}
+#content{
+	margin-top: 0.32rem;
+	background-color: #fff;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+#content ul li {
+	height:1.2rem ;
+	line-height: 1.2rem;
+	border-top: 1px solid #eee;
+}
+#content ul li a{
+	color: #000;
+	margin-right: 0.2rem;
+}
+#footer{
+	margin-top: 0.5rem;
+	background-color: #ffdb2c;
+}
+#content ul ul li{
+	height: 1rem;
+	line-height: 1rem;
+}
